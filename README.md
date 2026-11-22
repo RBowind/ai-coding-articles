@@ -1,2 +1,32 @@
-# ai-coding-articles
-AI coding 技术分享文章合集：Claude Code、Agent 工作流、工程实践
+# AI Coding 技术分享
+
+记录 AI 辅助编程的实践与思考：编码 agent（Claude Code、Codex 等）的用法、工作流设计、工程落地中的坑与经验。
+
+## 文章
+
+| 日期 | 标题 | 主题 |
+| --- | --- | --- |
+| — | *待更新* | — |
+
+## 目录结构
+
+```
+articles/   文章正文，命名 YYYY-MM-DD-slug.md
+assets/     文章配图，按文章 slug 建子目录
+```
+
+## 写作约定
+
+- 文件名用 `YYYY-MM-DD-slug.md`，日期取首次发布日
+- 文首写清标题、摘要、标签，方便后续同步到其他平台
+- 代码块标注语言；长示例优先链接到可运行的仓库
+- 配图放 `assets/<slug>/`，正文用相对路径引用
+- 涉及外部工具或模型行为时，标注版本与验证时间
+
+## 模板
+
+新建文章时复制 [`articles/_template.md`](articles/_template.md)，并在上面的文章表里加一行。
+
+## 许可
+
+文章版权归作者所有，转载请注明出处。
